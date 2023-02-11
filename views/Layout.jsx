@@ -11,7 +11,7 @@ module.exports = function Layout({ children }) {
         <link rel="stylesheet" href="/css/application.css" />
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" />
-        <script src="/js/application.js" />
+        <script defer src="/js/application.js" />
         <title>Karaoke</title>
       </head>
 
@@ -19,7 +19,7 @@ module.exports = function Layout({ children }) {
         <div className="container">
           <header role="banner">
             <a className="title" href="/">Karaoke</a>
-            <a href="/new-entry-form" className="signup button">Sign up to Karaoke</a>
+            <a href="/form" className="signup button">Sign up to Karaoke</a>
           </header>
 
           {children}

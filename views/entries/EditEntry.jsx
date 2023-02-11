@@ -7,7 +7,7 @@ module.exports = function EditEntry({ entry }) {
       <h1>Edit the Entry</h1>
 
       <main className="form-wrapper" role="main">
-        <form method="post" action={`/update-entry/${entry.id}`}>
+        <form id="form">
           <label htmlFor="singer_name_input">Singer name:</label>
           <input id="singer_name_input" name="entry[singer]" type="text" value={entry.singer} />
 

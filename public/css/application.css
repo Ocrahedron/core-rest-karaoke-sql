@@ -41,12 +41,12 @@ main {
   padding-bottom: 3em;
 }
 
-a, a:visited {
+a,li, a:visited {
   color: #f7941e;
   text-decoration: none;
 }
 
-  a:hover {
+  a:hover, li:hover {
     text-decoration: underline;
     color: #f26539;
   }

@@ -20,7 +20,7 @@ module.exports = function NewEntry({ errors }) {
           </div>
         )}
 
-        <form method="post" action="create-new-post">
+        <form method="post" action="new-post">
           <label htmlFor="singer_name_input">Singer name:</label>
           <input id="singer_name_input" name="entry[singer]" type="text" value="entry[singer]" />
 
